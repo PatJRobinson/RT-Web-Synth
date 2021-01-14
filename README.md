@@ -4,7 +4,7 @@ A multi-processor project for the NUCLEO-F76ZI and Bela Mini. This project featu
 
 The project is currently a working prototype, demonstrating the core functionality and design of the system.
 
-The inspiration for this project came from running music workshops and imagining a more versitle, easy-to-use, cost-effective solution to replace the current litany of iPad apps; all from different developers, varying in design and level of polish, each subject to the lack of responsiveness and reliability that often comes with using non-bespoke software/hardware solutions.
+The inspiration for this project came from helping to run music workshops as a volunteer ... the aim is to create a more versitle, easy-to-use, cost-effective solution as an effective alternative. The tactile, immediate still gets RT  ....    customisable UI, easy to use for all ... 
 
 This project offers hard real-time audio processing through the bela mini, perameters for which can be selected at ease on a mobile device which connected to the local WIFI. The Web-server downloads this information and transmits it to the Bela Mini over UART, to be interpreted as control information for the patch it is running.
 
@@ -13,4 +13,12 @@ The system could conceivably form part of a DJ or modular setup; it's dual USB a
 
 Features
 
-Ethernet, CGI, SSI, RMII, Lwip, DHCP, UAR
+
+Bela Mini
+ - latency
+ 
+ Nucleo F767ZI
+ - ethernet 
+ - analog outputs
+
+Ethernet, CGI, SSI, RMII, Lwip, DHCP, UART
