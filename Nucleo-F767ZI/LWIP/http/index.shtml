@@ -1,0 +1,101 @@
+<!DOCTYPE shtml>
+<html>
+   <head>
+     <head> 
+								
+
+<bodwidth: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+<h1>synth</h1> 
+<meta charset="utf-8" /> </head>
+
+   </head>
+
+     <form name ="myForm" id ="myForm" target ="_myFrame" method="get" action="/leds.cgi">
+     <h3>waveshape:</h3>			
+     <!--#tag1-->sine					
+     <br>					
+     <!--#tag2-->sawtooth		
+     <br>				
+     <!--#tag3-->triangle			
+     <br>
+     <!--#tag4-->square			
+     <br>
+
+     </div>					
+     <h3>octave:</h3>
+     <!--#tag5-->-2					
+     <br>					
+     <!--#tag6-->-1		
+     <br>				
+     <!--#tag7-->0	
+     <br>
+     <!--#tag8-->1			
+     <br>
+     <!--#tag9-->2		
+     <br>
+
+     </div>					
+     <h3>filter:</h3>			
+     <!--#tag10-->lp			
+     <br>
+     <!--#tag11-->hp			
+     <br>
+     <!--#tag12-->bp			
+     <br>
+     <!--#tag13-->np		
+     <br>	
+
+     </div>
+<h1>audio</h1> 
+<h3>delay:</h3>	
+     <!--#tag14-->on
+   <br>
+     <!--#tag15-->on
+   <br>
+     </div>
+     </form>
+  </body>
+
+  <script>
+
+  function handleClick(cb) { 
+
+	var cbs = document.getElementsByClassName(cb.className); 
+
+  	for (var i = 0; i < cbs.length; i++) { 
+
+              cbs[i].checked = false; 
+              
+        } 
+
+        cb.checked = true;   
+        document.getElementById("myForm").submit();
+        }  
+
+function handleClick1(cb) { 
+
+	   
+        document.getElementById("myForm").submit();
+        }  
+   
+
+   
+
+    
+
+</script> 
+</html>
