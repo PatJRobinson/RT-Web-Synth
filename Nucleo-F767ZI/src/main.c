@@ -84,6 +84,7 @@ u16_t mySSIHandler(int iIndex, char *pcInsert, int iInsertLen);
 const char *theSSItags[numSSItags] = { "tag1", "tag2", "tag3", "tag4", "tag5", "tag6", "tag7", "tag8","tag9", "tag10", "tag11", "tag12", "tag13", "tag14" ,"tag15" };
 
 // strings to be returned by SSI handler, depending on whether variable is "checked" or "unchecked"
+// REPLACE with sprintf string builder, to save memory
 char * myStr[2][numSSItags] = {{
 		"<input value = \"1\" name=\"led\" class = \"wshape\" type = \"checkbox\" onclick = \"handleClick(this)\">",
 		"<input value = \"2\" name=\"led\" class = \"wshape\" onclick = \"handleClick(this)\" type = \"checkbox\">",
