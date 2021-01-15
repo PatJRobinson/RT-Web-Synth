@@ -85,12 +85,6 @@
         cb.checked = true;   
         document.getElementById("myForm").submit();
         }  
-
-function handleClick1(cb) { 
-
-	   
-        document.getElementById("myForm").submit();
-        }  
    
 
    
