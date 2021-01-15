@@ -185,21 +185,21 @@ char *pcValue[]) {
 				if (x < 4)		// wshape
 				{
 					ctrData[0] = x;
-					uint8_t txData[3] = {0x90, 0, ctrData[0]};
+					uint8_t txData[3] = {0x90, 0x00, ctrData[0]};
 					HAL_UART_Transmit(&huart5, txData, 3, 10);
 
 
 				} else if (x < 9)		//octave
 				{
 					ctrData[1] = x - 4;
-					uint8_t txData[3] = {0x90, 0, ctrData[0]};
+					uint8_t txData[3] = {0x90, 0x01, ctrData[1]};
 					HAL_UART_Transmit(&huart5, txData, 3, 10);
 
 
 				} else if (x < 13)		//filter
 				{
 					ctrData[2] = x - 9;
-					uint8_t txData[3] = {0x90, 0, ctrData[0]};
+					uint8_t txData[3] = {0x90, 0x02, ctrData[2]};
 					HAL_UART_Transmit(&huart5, txData, 3, 10);
 
 
@@ -207,7 +207,7 @@ char *pcValue[]) {
 				else if (x < 15)		//delayTog
 				{
 					ctrData[3] = x - 13;
-					uint8_t txData[3] = {0x90, 0, ctrData[0]};
+					uint8_t txData[3] = {0x90, 0x03, ctrData[3]};
 					HAL_UART_Transmit(&huart5, txData, 3, 10);
 				}
 			}
