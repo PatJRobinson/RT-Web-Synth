@@ -11,14 +11,17 @@ This project offers hard real-time audio processing through the bela mini, peram
 The system could conceivably form part of a DJ or modular setup; it's dual USB and many analog/digital inputs allow for extra sensors or motion-tracking hardware to be connected. The analog outputs offered via the nucleo board will enable the controlling of external modular devices.
 
 
-Features
+Features - diagram of full setup
 
 
 Bela Mini
- - latency
+ - latency (watch intro vid)
+ Device tree overlay - link
  
  Nucleo F767ZI
- - ethernet 
+ - ethernet - link
  - analog outputs
+
+LWIP
 
 Ethernet, CGI, SSI, RMII, Lwip, DHCP, UART
