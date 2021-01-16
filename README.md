@@ -34,4 +34,13 @@ http://ausleuchtung.ch/stm32-nucleo-f767zi-web-server/
 Series of tutorials for making music programs with Bela:
 https://www.youtube.com/watch?v=aVLRUyPBBJk&list=PLCrgFeG6pwQmdbB6l3ehC8oBBZbatVoz3
 
+A series of articles I used when trying to configure the Bela Mini to recieve UART:
+https://github.com/BelaPlatform/Bela/wiki/Load-a-device-tree-overlay
 
+https://forum.bela.io/d/622-enabling-uart-device-tree-overlay
+
+https://forum.bela.io/d/479-bela-mini-bela-in-miniature
+
+https://github.com/BelaPlatform/Bela/wiki/Bela-as-a-UART-adapter
+
+https://github.com/ebai101/BelaSerialMidi
