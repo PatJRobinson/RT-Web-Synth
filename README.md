@@ -3,6 +3,7 @@
 A multi-processor project for the NUCLEO-F76ZI and Bela Mini. This project features a real-time digital instrument and a program control interface that can be accessed via any browser.
 
 The project is currently a working prototype, demonstrating the core functionality and design of the system.
+A short video demonstrating the system's core functionality: https://www.youtube.com/watch?v=iRrGBJRCmsc&t=3s
 
 The inspiration for this project came from helping to run music workshops as a volunteer and being dissatisfied with the tech that was being used; an overreliance on iPad apps was causing the instruments available to be unresponsive due to the latency inherent in the system, which led to an overall experience that was not exciting and lacking in engagement. The aim of the project is to create a more versitle, easy-to-use, cost-effective solution as an alternative, using real-time signal processing to improve the quality of instruments used in the sessions.  
 
