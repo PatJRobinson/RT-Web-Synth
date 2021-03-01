@@ -37,11 +37,3 @@ https://github.com/BelaPlatform/Bela/wiki/Bela-as-a-UART-adapter
 
 https://github.com/ebai101/BelaSerialMidi
 
-
-A multi-processor project for the NUCLEO-F76ZI and Bela Mini. This project features a real-time digital instrument and a program control interface that can be accessed via any browser.
-
-The inspiration for this project came from helping to run music workshops for a local charity and consistently running into tech-issues due to an overreliance on iPad apps. The aim is to present a more versitle - yet uniform, easy-to-use and cost-effective - solution as an effective alternative. In particular, the real-time kernel featured on the Bela Mini ensures Input/Output latency stays below a specified level (<1ms, depending on project settings), and allows programs to account for jitter, thus allowing the creation of responsive, engaging and fun-to-use instruments.
-
-In order to make such a device 1) accessible to all users and 2) easily customisable, capable of being 'multiple instruments in one', a suitable software User Interface must be incorperated. Inputs requiring fast, tactile responsiveness - usually those directly causing an auditory response (midi controller or microphone) will still need to be handled by hardware inputs. Thus we have a dual-processor system.
-
-
